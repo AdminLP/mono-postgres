@@ -3,9 +3,9 @@
 PostreSQL module for Mono
 
 [![npm version](https://img.shields.io/npm/v/mono-postgres.svg)](https://www.npmjs.com/package/mono-postgres)
-[![Travis](https://img.shields.io/travis/Vasiliy/mono-postgres/master.svg)](https://travis-ci.org/Vasiliy/mono-postgres)
-[![Coverage](https://img.shields.io/codecov/c/github/Vasiliy/mono-postgres/master.svg)](https://codecov.io/gh/Vasiliy/mono-postgres)
-[![license](https://img.shields.io/github/license/Vasiliy/mono-postgres.svg)](https://github.com/Vasiliy/mono-postgres/blob/master/LICENSE)
+[![Travis](https://img.shields.io/travis/AdminLP/mono-postgres/master.svg)](https://travis-ci.org/AdminLP/mono-postgres)
+[![Coverage](https://img.shields.io/codecov/c/github/AdminLP/mono-postgres/master.svg)](https://codecov.io/gh/AdminLP/mono-postgres)
+[![license](https://img.shields.io/github/license/AdminLP/mono-postgres.svg)](https://github.com/AdminLP/mono-postgres/blob/master/LICENSE)
 
 ## Installation
 
@@ -53,4 +53,4 @@ See the [contribution guidelines](CONTRIBUTING.md) of this project.
 
 ## License
 
-Apache-2.0 &copy; Vasiliy
+Apache-2.0 &copy; AdminLP
