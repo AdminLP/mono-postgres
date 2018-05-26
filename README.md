@@ -1,16 +1,16 @@
-# mono-postgres
+# mono-sequelize
 
 PostreSQL module for Mono
 
-[![npm version](https://img.shields.io/npm/v/mono-postgres.svg)](https://www.npmjs.com/package/mono-postgres)
-[![Travis](https://img.shields.io/travis/AdminLP/mono-postgres/master.svg)](https://travis-ci.org/AdminLP/mono-postgres)
-[![Coverage](https://img.shields.io/codecov/c/github/AdminLP/mono-postgres/master.svg)](https://codecov.io/gh/AdminLP/mono-postgres)
-[![license](https://img.shields.io/github/license/AdminLP/mono-postgres.svg)](https://github.com/AdminLP/mono-postgres/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/mono-sequelize.svg)](https://www.npmjs.com/package/mono-sequelize)
+[![Travis](https://img.shields.io/travis/AdminLP/mono-sequelize/master.svg)](https://travis-ci.org/AdminLP/mono-sequelize)
+[![Coverage](https://img.shields.io/codecov/c/github/AdminLP/mono-sequelize/master.svg)](https://codecov.io/gh/AdminLP/mono-sequelize)
+[![license](https://img.shields.io/github/license/AdminLP/mono-sequelize.svg)](https://github.com/AdminLP/mono-sequelize/blob/master/LICENSE)
 
 ## Installation
 
 ```bash
-npm install --save mono-postgres
+npm install --save mono-sequelize
 ```
 
 Then, in your configuration file of your Mono application (example: `conf/application.js`):
@@ -18,19 +18,19 @@ Then, in your configuration file of your Mono application (example: `conf/applic
 ```js
 module.exports = {
   mono: {
-    modules: ['mono-postgres']
+    modules: ['mono-sequelize']
   }
 }
 ```
 
 ## Configuration
 
-`mono-postgres` will use the `mono.postgres` property of your configuration (example: `conf/development.js`):
+`mono-sequelize` will use the `mono.sequelize` property of your configuration (example: `conf/development.js`):
 
 ```js
 module.exports = {
   mono: {
-    postgres: {
+    sequelize: {
       /* Module options */
     }
   }
@@ -42,9 +42,9 @@ module.exports = {
 In your `src/` files of your Mono project, you can access `hello` like this:
 
 ```js
-const { hello } = require('mono-postgres')
+const { db } = require('mono-sequelize')
 
-hello()
+db()
 ```
 
 ## Development / Contribution

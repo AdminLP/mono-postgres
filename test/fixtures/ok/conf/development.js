@@ -1,7 +1,7 @@
 module.exports = {
-	mono: {
-		postgres: {
-			username: 'TerraJS'
-		}
-	}
-}
+  mono: {
+    postgres: {
+      username: 'TerraJS',
+    },
+  },
+};
