@@ -1,6 +1,6 @@
 {
   "name": "mono-sequelize",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Sequelize module for Mono",
   "main": "lib/",
   "files": [
